@@ -149,3 +149,14 @@ add_action( 'wp_head', 'twentytwentytwo_preload_webfonts' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+
+add_action('init', function (){
+	register_post_type('podcast', [
+		'public' => true,
+		'label' => 'Podcasts',
+		'show_in_graphql' => true,
+		'graphql_single_name' => 'Podcast',
+		'graphql_plural_name' => 'Podcasts',
+	]);
+});
