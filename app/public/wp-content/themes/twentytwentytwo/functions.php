@@ -160,3 +160,13 @@ add_action('init', function (){
 		'graphql_plural_name' => 'Podcasts',
 	]);
 });
+
+add_action('init', function (){
+	register_post_type('blog', [
+		'public' => true,
+		'label' => 'Blogs',
+		'show_in_graphql' => true,
+		'graphql_single_name' => 'Blog',
+		'graphql_plural_name' => 'Blogs',
+	]);
+});

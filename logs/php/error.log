@@ -1,0 +1,26 @@
+[04-Feb-2022 02:49:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_blogs() in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php:164
+Stack trace:
+#0 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-settings.php(555): include()
+#1 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-config.php(77): require_once('/Users/fernando...')
+#2 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-load.php(50): require_once('/Users/fernando...')
+#3 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/fernando...')
+#4 {main}
+  thrown in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php on line 164
+[04-Feb-2022 02:49:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_blogs() in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php:164
+Stack trace:
+#0 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-settings.php(555): include()
+#1 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-config.php(77): require_once('/Users/fernando...')
+#2 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-load.php(50): require_once('/Users/fernando...')
+#3 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-admin/admin.php(34): require_once('/Users/fernando...')
+#4 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-admin/edit.php(10): require_once('/Users/fernando...')
+#5 {main}
+  thrown in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php on line 164
+[04-Feb-2022 02:49:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_blogs() in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php:164
+Stack trace:
+#0 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-settings.php(555): include()
+#1 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-config.php(77): require_once('/Users/fernando...')
+#2 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-load.php(50): require_once('/Users/fernando...')
+#3 /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-blog-header.php(13): require_once('/Users/fernando...')
+#4 /Users/fernandoschulz/Local Sites/nicasource/app/public/index.php(17): require('/Users/fernando...')
+#5 {main}
+  thrown in /Users/fernandoschulz/Local Sites/nicasource/app/public/wp-content/themes/twentytwentytwo/functions.php on line 164
